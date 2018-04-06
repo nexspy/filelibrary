@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../plugins/vegas/vegas.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <div class="page" id="page-list">
+
+        <div><h2>Global File Setting:</h2></div>
+
+        <div>
+          <input type="text" class="input" placeholder="File Source" id="txt-source"> 
+        </div>
+
+        <div>
+          <input type="text" class="input" placeholder="File Destination" id="txt-dest"> 
+        </div>
+
+        <div style="margin-bottom: 10px;">
+          <button class="btn" id="btn-update">Update</button>
+        </div>
+
+        <div>
+          <button class="btn" id="btn-test">Test</button>
+        </div>
+
+        <div id="message"></div>
+          
+      </div>
+
+    </div>
+
+    <script>
+      window.$ = window.jQuery = require("../plugins/jquery/jquery-3.2.1.js");
+    </script>
+    <script src="../plugins/vegas/vegas.min.js"></script>
+    <script src="settings.js"></script>
+
+  </body>
+</html>

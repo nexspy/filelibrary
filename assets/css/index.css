@@ -1,0 +1,204 @@
+body {
+    background: linear-gradient(90deg, #ffca28 2px, transparent 1%) center, linear-gradient(#ffca28 2px, transparent 1%) center, #ffa000;
+    /* background: linear-gradient(90deg, #29b6f6 2px, transparent 1%) center, linear-gradient(#29b6f6 2px, transparent 1%) center, #0277bd; */
+    background-size: 6px 6px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html, body{
+    height:100%;
+}
+ .wrapper{
+    width: 900px;
+    margin:0px auto;
+    height:100%;
+    overflow:hidden;
+    background-color: white;
+    padding: 12px;
+ }
+
+
+.content-item {
+    padding: 20px;
+    background-color: white;
+    margin: 0px 10px 10px 10px;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #0091ea;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #0091ea;
+    background-color: white;
+    border: 1px solid #EEE;
+    border-bottom: 2px solid #CCC;
+}
+
+.btn:disabled {
+    background-color: #e0e0e0;
+    color: #beb9b9;
+}
+
+.centered-item {
+    width: 200px;
+    margin: 0px auto;
+    padding-top: 200px;
+}
+
+
+input {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.list-item {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+
+.search-bar {
+    margin-bottom: 10px;
+}
+
+.filter {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.filter .filter-item {
+    float: left;
+    border: 1px solid #CCC;
+    padding: 10px;
+    width: 18px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.page {
+    position: relative;
+}
+
+#setting-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.poster {
+    width: 260px;
+    height: 370px;
+    margin-bottom: 4px;
+}
+
+
+
+#overlay {
+    display: none;
+    opacity: 0;
+
+    /* display: block;
+    opacity: 1; */
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: #1a237e;
+}
+#overlay-bg {
+    display: none;
+    opacity: 0;
+
+    /* display: block;
+    opacity: 1; */
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(144,202,249,0.7);
+    color: #1a237e;
+}
+#overlay .wrapper {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px 24px;
+    background-color: #1e1e1e;
+    color: white;
+}
+#overlay .wrapper p {
+    padding: 10px 15px;
+}
+
+
+
+
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43,194,83);
+    background-image: linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+    );
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .orange > span {
+    background-color: #f1a165;
+    background-image: linear-gradient(to bottom, #f1a165, #f36d0a);
+  }
+  
+  .red > span {
+    background-color: #f0a3a3;
+    background-image: linear-gradient(to bottom, #f0a3a3, #f42323);
+  }
